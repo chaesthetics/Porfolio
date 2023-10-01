@@ -41,7 +41,9 @@ const router = useRouter();
   </nav>
 </div>
 </header>
-<RouterView />
+<main class="max-w-7xl mx-auto min-w-screen">
+  <RouterView />
+</main>
 </template>
 
 
