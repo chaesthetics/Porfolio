@@ -1,5 +1,10 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router';
+import { useRouter } from 'vue-router'
+const router = useRouter();
+
 </script>
+
 <template>
   <main>
     <div class="about w-4/6 ml-auto mr-auto mt-10 bg-neutral-800 pl-5 pr-4 pt-5 pb-5 rounded-xl">
@@ -18,6 +23,16 @@
             in the most creative way. If you are interested in hiring me, please contact the listed contact.
           </p>
         </div>
+      </div>
+    </div>
+    <div class="w-4/6 ml-auto mr-auto">
+      <div class="flex pt-10 font-semibold items-center">
+        <hr class="border border-1 border-red-600 w-20">
+        <p class="text-white pl-3 text-xl">Skills</p>
+      </div>
+      <div class="space-x-2 pt-2">
+        <RouterLink to="/about/techstack" class="text-white text-semibold">Tech Stack</RouterLink>
+        <RouterLink to="/about/tools" class="text-white text-semibold">Tools</RouterLink>
       </div>
     </div>
   </main>
