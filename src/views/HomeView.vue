@@ -66,7 +66,7 @@
           <p class="text-white leading-10 text-[50px] font-semibold">Fernandez</p>
         </div>
         <div class="leading-10">
-          <p class="typewrite text-white text-3xl font-semibold leading-10" data-period="3000"
+          <p class="typewrite text-white text-3xl font-semibold leading-10 break-words w-[200px]" data-period="3000"
             data-type='["Fullstack Web Developer", "Software QA Engineer"]'
           ></p>
         </div>
