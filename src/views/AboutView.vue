@@ -1,6 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import SkillsView from '@/components/SkillsView.vue'
+import { RouterLink, RouterView } from 'vue-router'
+import SkillsView from '@/components/SkillsView.vue';
+import ToolsView from '@/components/ToolsView.vue';
 import { useRouter } from 'vue-router'
 const router = useRouter();
 
@@ -32,7 +33,7 @@ const router = useRouter();
         <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-300 focus:border-yellow-300 hover:border-yellow-300 animation duration-300">Tech Stack</button>
         <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-300 focus:border-yellow-300 hover:border-yellow-300 animation duration-300">Tools</button>
       </div>
-      <SkillsView />
+      <ToolsView />
     </div>
   </main>
 </template>
