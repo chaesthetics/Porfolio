@@ -47,7 +47,7 @@ const router = useRouter();
 
 <style>
 .active{
-  border-bottom:3px solid red;
+  border-bottom:3px solid yellow;
 }
 
 </style>
