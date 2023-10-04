@@ -12,16 +12,13 @@ const router = useRouter();
       <p class="text-white font-bold text-lg pb-4 uppercase pl-4">About me</p><hr class="border-1 border-yellow-300 border">
       <div class="flex text-white items-center justify-around pt-4">
         <img src="@/assets/25.jpg" class="h-[250px] w-[250px] rounded-full">
-        <div class="max-w-50 w-1/2 break-words space-y-6 text-sm">
+        <div class="max-w-50 w-1/2 break-words space-y-3 text-md">
           <p class="">
             Hi everyone! My name is Auriel James V. Fernandez from Mangatarem, Pangasinan. Currently I am a software QA Engineer in Makati city.
-            While working I make time to study modern tech stacks in web development so that I can handle web application projects in the future.
-            I really enjoy what I do right now, In my opinion, creating a program is not just a job, but also an art that has aesthetic value.
+            While working, I make time to study modern Tech stacks in Web development so that I can handle web application projects in the future.
           </p>
           <p>
-            My vision is to build your website to be functional and user-friendly yet still attractive. In addition, To provide a personal touch
-            to you product and ensure that the website wil catch an attention and easy to use. My goal is to convey your message and Identity 
-            in the most creative way. If you are interested in hiring me, please contact the listed contact.
+              I really enjoy what I do right now, In my opinion, Creating a program is not just a job, but also an art that has aesthetic value.
           </p>
         </div>
       </div>
@@ -32,8 +29,8 @@ const router = useRouter();
         <p class="text-white pl-3 text-xl">Skills</p>
       </div>
       <div class="space-x-2 pt-3">
-        <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-600 hover:text-yellow-600 animation duration-300">Tech Stack</button>
-        <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-600 hover:text-yellow-600 animation duration-300">Tools</button>
+        <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-300 focus:border-yellow-300 hover:border-yellow-300 animation duration-300">Tech Stack</button>
+        <button class="text-white font-semibold hover:bg-neutral-800 focus:bg-neutral-800 pt-2 hover:rounded-sm focus:rounded-sm pb-2 pr-3 pl-3 focus:text-yellow-300 focus:border-yellow-300 hover:border-yellow-300 animation duration-300">Tools</button>
       </div>
       <SkillsView />
     </div>
