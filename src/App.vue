@@ -50,4 +50,8 @@ const router = useRouter();
   border-bottom:3px solid yellow;
 }
 
+.no-scrollbar::-webkit-scrollbar { 
+  display: none; 
+} 
+  
 </style>

@@ -1,10 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+
 import SkillsView from '@/components/SkillsView.vue';
 import ToolsView from '@/components/ToolsView.vue';
-import { useRouter } from 'vue-router'
-const router = useRouter();
-import { defineProps } from 'vue';
+
 import { ref } from 'vue';
 
 var isActive = ref('techstack');
