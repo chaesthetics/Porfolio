@@ -27,7 +27,7 @@ const projects = [
     {
         title: 'Instagram Clone',
         description: 'My version of Instagram, I created this website when I studying laravel 10 with proper Validations, and Authentication.',
-        img: 'src/assets/instagram.png',
+        img: '@/assets/instagram.png',
         language: 'Blade, Laravel 10, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Instagram',
@@ -35,7 +35,7 @@ const projects = [
     {
         title: 'CRM',
         description: 'Customer Relationship Management, System that manages the interaction with customer and potential customers.',
-        img: 'src/assets/crm.png',
+        img: '/src/assets/crm.png',
         language: 'NextJS, Laravel 8, Tailwind',
         role: 'Collaborator',
         link: 'https://github.com/deeveraEnchongOfficial/crm',
