@@ -19,7 +19,7 @@ const projects = [
     {
         title: 'Personal Website',
         description: 'My personal website, I created this website to enhance my skills in VueJS 3 and to display my profile.',
-        img: 'src/assets/portfolio.png',
+        img: './src/assets/portfolio.png',
         language: 'VueJS 3, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Portfolio',
