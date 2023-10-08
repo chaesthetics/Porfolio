@@ -19,7 +19,7 @@ const projects = [
     {
         title: 'Personal Website',
         description: 'My Portfolio, I created this website to enhance my skills in VueJS 3 and to display my profile.',
-        img: './src/assets/portfolio.png',
+        img: './src/assets/portfolio.PNG',
         language: 'VueJS 3, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Portfolio',
@@ -27,7 +27,7 @@ const projects = [
     {
         title: 'Instagram Clone',
         description: 'My version of Instagram, I created this website when I studying laravel 10 with proper Validations, and Authentication.',
-        img: '@/assets/instagram.png',
+        img: './src/assets/instagram.PNG',
         language: 'Blade, Laravel 10, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Instagram',
