@@ -1,7 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
+import { initFlowbite } from 'flowbite'
 import { useRouter } from 'vue-router'
 const router = useRouter();
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    initFlowbite();
+});
+
 </script>
 
 <template>
@@ -43,7 +50,6 @@ const router = useRouter();
 </header>
 <RouterView />
 </template>
-
 
 <style>
 .active{
