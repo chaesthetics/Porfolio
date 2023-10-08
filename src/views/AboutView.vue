@@ -21,7 +21,9 @@ const changeActive = (event) => {
         <img src="@/assets/25.jpg" class="h-[250px] w-[250px] rounded-full">
         <div class="max-w-50 w-1/2 break-words space-y-3 text-md">
          <p>
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "Hi everyone! My name is Auriel James V. Fernandez from Mangatarem, Pangasinan. Currently, I am working as a Software QA Engineer.
+          When I have free time, I do personal projects to enhance my skills.<br>
+          I really enjoy studying Web Development and, In my opinion, Creating a program is not just a job, but also an art that has aesthetic value."
          </p>
         </div>
       </div>
