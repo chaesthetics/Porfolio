@@ -50,7 +50,7 @@ const projects = [
     },
     {
         title: 'Twitter Clone',
-        description: 'Copy of Twitter, Created by my workmate which Im apprenticing in learning PHP.',
+        description: 'A social networking site where users broadcast short posts known as tweets. These tweets can contain text, videos, photos or links. ',
         img: 'src/assets/twitter.png',
         language: 'Php, Tailwind',
         role: 'Collaborator',
@@ -68,14 +68,14 @@ const projects = [
 
 </script>
 <template>
-<div class="grid grid-cols-3 gap-4 mt-10 pb-10 text-white">
+<div class="grid grid-cols-3 gap-6 mt-10 pb-10 text-white">
     <button v-for="(project, key) in projects" :key="key" class="bg-neutral-800 rounded-xl hover:bg-neutral-700 hover:-translate-y-1 hover:scale-110 animation duration-300">
         <div class="pt-5 pb-5 pr-5 pl-5">
             <div class="space-y-2">
                 <img :src="project.img" class="rounded-md">
                 <div class="flex flex-col leading-4 items-center justify-center">
                     <p class="text-white font-bold text-md text-center">{{ project.title }}</p>
-                    <p class="text-xs">{{ project.role }}</p>
+                    <p class="text-[10px] text-slate-400">{{ project.role }}</p>
                 </div>
                 <p class="text-white text-sm text-left">{{ project.description }}</p>
             </div>
