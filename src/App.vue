@@ -53,7 +53,7 @@ onMounted(() => {
 
 <style>
 .active{
-  border-bottom:3px solid yellow;
+  border-bottom:3px solid rgb(202 138 4);
 }
 
 .no-scrollbar::-webkit-scrollbar { 
