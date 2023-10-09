@@ -19,7 +19,7 @@ const projects = [
     {
         title: 'Personal Website',
         description: 'My Portfolio, I created this website to enhance my skills in VueJS 3 and to display my profile.',
-        img: './src/assets/portfolio.jpg',
+        img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4RCDJK9MrLF40HApTbIFtAw5lI5dyr2W876M9lAIzjsO1OB36PKGijLaBQk6mwFyuU3ZfpAOIMVgBqin5rEfsNVfTz_zfdYgU4-hcSyIUmrt2aac5T2l_biaOaj-zoA1QYg7NC52CTrBf8Rddc0-7L9bZvTh5XIV7xX5u47QuaGcRovJP6aPQxvVK8S_y/w642-h343/portfolio.png',
         language: 'VueJS 3, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Portfolio',
