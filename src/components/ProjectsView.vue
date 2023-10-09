@@ -19,7 +19,7 @@ const projects = [
     {
         title: 'Personal Website',
         description: 'My Portfolio, I created this website to enhance my skills in VueJS 3 and to display my profile.',
-        img: './src/assets/portfolio.PNG',
+        img: './src/assets/portfolio.jpg',
         language: 'VueJS 3, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Portfolio',
@@ -27,7 +27,7 @@ const projects = [
     {
         title: 'Instagram Clone',
         description: 'My version of Instagram, I created this website when I studying laravel 10 with proper Validations, and Authentication.',
-        img: './src/assets/instagram.PNG',
+        img: './src/assets/instagram.jpg',
         language: 'Blade, Laravel 10, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Instagram',
@@ -35,7 +35,7 @@ const projects = [
     {
         title: 'CRM',
         description: 'Customer Relationship Management, System that manages the interaction with customer and potential customers.',
-        img: '/src/assets/crm.png',
+        img: './src/assets/crm.jpg',
         language: 'NextJS, Laravel 8, Tailwind',
         role: 'Collaborator',
         link: 'https://github.com/deeveraEnchongOfficial/crm',
@@ -43,7 +43,7 @@ const projects = [
     {
         title: 'Weather App',
         description: 'Weather App, app provides detailed local forecast & weather forecast world wide using RapidAPI.',
-        img: 'src/assets/weatherapp.png',
+        img: './src/assets/weatherapp.jpg',
         language: 'ReactJs, ApiFetch, Tailwind',
         role: 'Author',
         link: 'https://github.com/chaesthetics/Weather-App',
@@ -51,7 +51,7 @@ const projects = [
     {
         title: 'Twitter Clone',
         description: 'A social networking site where users broadcast short posts known as tweets. These tweets can contain text, videos, photos or links. ',
-        img: 'src/assets/twitter.png',
+        img: './src/assets/twitter.jpg',
         language: 'Php, Tailwind',
         role: 'Collaborator',
         link: 'https://github.com/chaesthetics/Twitter-Clone',
@@ -59,7 +59,7 @@ const projects = [
     {
         title: 'Anime Dictionary',
         description: 'Anime Dictionary, This system provides a complete list of whatever anime in the search using RapidAPI.',
-        img: 'src/assets/animelist.png',
+        img: './src/assets/animelist.jpg',
         language: 'ReactJs, ApiFetch, Bootstrap5',
         role: 'Author',
         link: 'https://github.com/chaesthetics/AnimeList',
@@ -91,7 +91,7 @@ const projects = [
                         <div class="tooltip-arrow" data-popper-arrow></div>
                         </div>
                         <button class="text-white hover:bg-gray-600" data-tooltip-target="tooltip-image{{ key }}">
-                            <svg data-tooltip-target="tooltip-image{{ key }}" v-on:click="getId($event)" :id="key" data-modal-target="popup-modal{{ key }}" data-modal-toggle="popup-modal{{ key }}" type="button" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="white" class="bi bi-box-arrow-in-up-right text-white" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z" fill="white"></path> <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z" fill="white"></path> </svg>
+                            <svg data-tooltip-target="tooltip-image{{ key }}" v-on:click="getId($event)" :id="key" data-modal-target="popup-modal{{ key }}" data-modal-toggle="popup-modal{{ key }}" type="button" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="white" class="bi bi-box-arrow-in-up-right text-white outline-none" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z" fill="white"></path> <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z" fill="white"></path> </svg>
                         </button>
                         <div id="tooltip-image{{ key }}" role="tooltip" class="absolute z-20 invisible inline-block px-3 py-2 text-xs font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-100 tooltip dark:bg-gray-700">
                             Zoom in
