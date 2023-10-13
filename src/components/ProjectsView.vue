@@ -68,7 +68,7 @@ const projects = [
 
 </script>
 <template>
-<div class="grid grid-cols-3 gap-6 mt-10 pb-10 text-white">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-6 mt-10 pb-10 text-white">
     <button v-for="(project, key) in projects" :key="key" class="bg-neutral-800 rounded-xl hover:bg-neutral-700 hover:-translate-y-1 hover:scale-110 animation duration-300">
         <div class="pt-5 pb-5 pr-5 pl-5">
             <div class="space-y-2">
