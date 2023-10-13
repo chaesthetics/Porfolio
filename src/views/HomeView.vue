@@ -57,9 +57,9 @@
   
 </script>
 <template>
-  <div class="w-auto h-auto mt-[10%] flex justify-around shrink mr-auto ml-auto pb-20x">
+  <div class="w-auto h-auto mt-[20%] md:mt-[10%] flex justify-around shrink mr-auto ml-auto pb-20x">
     <div class="card items-center md:grid md:grid-cols-2">
-      <div class="w-100 space-y-4 mb-10 text-center md:text-left">
+      <div class="w-100 space-y-1 md:space-y-4 mb-10 text-center md:text-left">
         <p class="text-yellow-300 text-2xl font-semibold">Hello World, I'm</p>
         <div>
           <p class="text-white leading-10 text-[50px] font-semibold">Auriel James</p>
@@ -73,7 +73,7 @@
         <p class="text-zinc-300 font-semibold text-md">Welcome to my Website !</p>
       </div>
       <div class="items-center justify-center">
-      <img src="@/assets/25.jpg" class="h-[280px] w-[280px] rounded-full border border-2 border-yellow-300 ml-auto mr-auto" style="box-shadow: 0px 0px 104px -16px rgba(211,255,16,0.75);
+      <img src="@/assets/25.jpg" class="h-[200px] w-[200px] md:w-[280px] md:h-[280px] rounded-full border border-2 border-yellow-300 ml-auto mr-auto" style="box-shadow: 0px 0px 104px -16px rgba(211,255,16,0.75);
         -webkit-box-shadow: 0px 0px 104px -16px rgba(211,255,16,0.75);
         -moz-box-shadow: 0px 0px 104px -16px rgba(211,255,16,0.75);">
       <div class="flex space-x-3 justify-center mt-10 ml-1">
