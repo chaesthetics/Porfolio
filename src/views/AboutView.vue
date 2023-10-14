@@ -28,7 +28,7 @@ const changeActive = (event) => {
         </div>
       </div>
     </div>
-    <div class="w-4/6 ml-auto mr-auto">
+    <div class="w-5/6 md:w-4/6 ml-auto mr-auto">
       <div class="flex pt-10 font-semibold items-center">
         <hr class="border border-1 border-yellow-300 w-20">
         <p class="text-white pl-3 text-xl">Skills</p>
@@ -43,7 +43,7 @@ const changeActive = (event) => {
         <button v-else id="tools" v-on:click="changeActive($event)" class="text-white font-semibold hover:bg-neutral-800  pt-2 hover:rounded-sm  pb-2 pr-3 pl-3 hover:border-yellow-300 animation duration-300">Tools
         </button>
       </div>
-      <div v-if="isActive === 'techstack'" class="animation transition transition-opacity duration-300 ">
+      <div v-if="isActive === 'techstack'" class="animation transition transition-opacity duration-300">
         <SkillsView />
       </div>
       <div v-else class="animation duration-300">
